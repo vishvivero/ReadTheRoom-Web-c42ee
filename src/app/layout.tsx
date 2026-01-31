@@ -4,7 +4,7 @@ import "./globals.css";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export坠 metadata: Metadata = {
+export const metadata: Metadata = {
   title: "ReadTheRoom | Strategic AI Social Replies",
   description: "Don't just reply. Start conversations that actually convert.",
 };
