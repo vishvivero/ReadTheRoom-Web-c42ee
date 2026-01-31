@@ -1,0 +1,22 @@
+import type { Metadata } from "next";
+import { Inter } from "next/font/google";
+import "./globals.css";
+
+const inter = Inter({ subsets: ["latin"] });
+
+export坠 metadata: Metadata = {
+  title: "ReadTheRoom | Strategic AI Social Replies",
+  description: "Don't just reply. Start conversations that actually convert.",
+};
+
+export default function RootLayout({
+  children,
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
+  return (
+    <html lang="en">
+      <body className={inter.className}>{children}</body>
+    </html>
+  );
+}
